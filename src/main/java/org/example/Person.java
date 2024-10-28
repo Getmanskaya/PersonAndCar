@@ -8,11 +8,11 @@ public class Person {
         this.personName = personName;
     }
 
-    public void drivingCar (Car car){
-        car.drive();
+    public void startCar(Car car) {
+        car.start();
     }
 
-    public void startingCar (Car car){
-        car.start();
+    public void driveCar(Car car) {
+        car.drive();
     }
 }

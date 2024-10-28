@@ -18,9 +18,7 @@ public class Car {
         System.out.println("Автомобиль едет");
     }
 
-    public String getCarModel(){
+    public String getCarModel() {
         return model;
     }
-
-
 }
